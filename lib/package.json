@@ -1,6 +1,9 @@
 {
-  "name": "@meo-albu/ui",
+  "name": "@meo-albu/lib",
   "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "typescript library",
   "author": "meo-albu",
   "license": "MIT",
