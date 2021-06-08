@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Heading from '../lib/components/Heading/Heading'
 
 export default function Home() {
   return (
@@ -9,8 +10,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className='h-screen grid place-items-center bg-red-300'>
-        hello, typescript
+      <div className='h-screen grid place-items-center'>
+        <Heading level={2}>
+          Hello, typescript
+        </Heading>
       </div>
     </div>
   )
