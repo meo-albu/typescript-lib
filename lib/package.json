@@ -1,6 +1,6 @@
 {
   "name": "@meo-albu/lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -9,6 +9,7 @@
   "license": "MIT",
   "repository": "meo-albu/typescript-lib",
   "main": "dist/index.js",
+  "types": "dist/lib/src/index.d.ts",
   "module": "dist/index.modern.js",
   "source": "./src/index.tsx",
   "engines": {
