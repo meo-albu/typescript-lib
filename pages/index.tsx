@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Heading from '../lib/components/Heading/Heading'
+import Heading from '../components/Heading/Heading'
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <div className='h-screen grid place-items-center'>
-        <Heading level={2}>
+        <Heading level={1} >
           Hello, typescript
         </Heading>
       </div>

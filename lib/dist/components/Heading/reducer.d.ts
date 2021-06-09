@@ -13,3 +13,4 @@ export declare const reducer: (state: {
     fontWeight: string;
 };
 export {};
+//# sourceMappingURL=reducer.d.ts.map

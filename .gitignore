@@ -6,6 +6,8 @@
 .pnp.js
 /lib/node_modules
 /lib/example
+/lib/dist
+.npmrc
 
 # testing
 /coverage
@@ -34,3 +36,4 @@ yarn-error.log*
 
 # vercel
 .vercel
+lib/.npmrc
